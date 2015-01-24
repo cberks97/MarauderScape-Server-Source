@@ -840,6 +840,14 @@ break;
 			case 551:
 				c.getShops().openShop(1);
 			break;
+			//Horvik's armor store
+			case 549:
+				c.getShops().openShop(16);
+			break;
+			//Lowe's Archery Emporium
+			case 550:
+				c.getShops().openShop(17);
+			break;
 			//Varrock Gen store assistant
 			case 552:
 				c.getShops().openShop(1);
@@ -851,6 +859,14 @@ break;
 			//Thessalia's Fine Clothes
 			case 548:
 				c.getShops().openShop(13);
+			break;
+			//Aubury's rune shop
+			case 553:
+				c.getShops().openShop(9);
+			break;
+			//varrock sword shop
+			case 555:
+				c.getShops().openShop(6);
 			break;
 			//Lumby Gen store keeper
 			case 520:
@@ -971,10 +987,6 @@ break;
 				c.getShops().openShop(3);
 			break;
 			
-			case 549:
-				c.getShops().openShop(28);
-			break;
-			
 			case 2538:
 				c.getShops().openShop(6);
 			break;
@@ -1042,9 +1054,6 @@ break;
 			case 988:
 				c.getDH().sendDialogues(31, npcType);
 			break;
-			case 553:
-				c.getShops().openShop(2);
-			break;
 			case 1282:
 				c.getShops().openShop(7);
 			break;
@@ -1084,9 +1093,6 @@ break;
 			break;
 			case 3789:
 				c.getShops().openShop(18);
-			break;
-			case 589:
-				c.getShops().openShop(9);
 			break;
 			case 594:
 				c.getShops().openShop(13);

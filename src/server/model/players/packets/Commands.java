@@ -35,27 +35,6 @@ public class Commands implements PacketType {
 			}
 		if(c.playerRights >= 0) {
 
-			if (playerCommand.startsWith("pure")) {
-					if (c.inWild())
-					return;
-				c.playerXP[0] = c.getPA().getXPForLevel(25)+5;
-				c.playerLevel[0] = c.getPA().getLevelForXP(c.playerXP[0]);
-				c.getPA().refreshSkill(0);
-				c.playerXP[2] = c.getPA().getXPForLevel(50)+5;
-				c.playerLevel[2] = c.getPA().getLevelForXP(c.playerXP[2]);
-				c.getPA().refreshSkill(2);
-				c.playerXP[3] = c.getPA().getXPForLevel(40)+5;
-				c.playerLevel[3] = c.getPA().getLevelForXP(c.playerXP[3]);
-				c.getPA().refreshSkill(3);
-				c.playerXP[4] = c.getPA().getXPForLevel(1)+5;
-				c.playerLevel[4] = c.getPA().getLevelForXP(c.playerXP[4]);
-				c.getPA().refreshSkill(4);
-				c.playerXP[6] = c.getPA().getXPForLevel(1)+5;
-				c.playerLevel[6] = c.getPA().getLevelForXP(c.playerXP[6]);
-				c.getPA().refreshSkill(6);
-				c.gfx100(199);
-				c.sendMessage("@red@Enjoy The Pure Power!");	
-			}
 			if (playerCommand.equalsIgnoreCase("commands")) {
 				c.sendMessage("@dbl@Commands Are on the forums.");
 			}
@@ -372,7 +351,6 @@ public class Commands implements PacketType {
 			
 			if(playerCommand.startsWith("news") && c.playerRights >= 0) {
 			c.sendMessage("@red@You are redirected to the latest news.");
-			c.getPA().sendFrame126("www.varrocks.webs.com", 12000);
                         }
 
 			if (playerCommand.equalsIgnoreCase("debug")) {

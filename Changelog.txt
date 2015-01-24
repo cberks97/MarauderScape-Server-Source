@@ -10,7 +10,9 @@ updated shops: lumby gen store(various prices)
 -Colin
 
 1/24/15
-added npc's: shop keeper(varrock), shop assistant(varrock), Thessalia, Baraek, Gypsy Aris, 
+added npc's: shop keeper(varrock), shop assistant(varrock), Thessalia, Baraek, Gypsy Aris, Horvik, Lowe, Aubury, shopkeeper(sword shop), tramp(x3), man, Johnny the Beard, Dr Harlow, 
+Bartender, barbarian woman, guard(x17), 
 removed shops: all the ridiculous made-up shops in Varrock that were in this source, 
-added shops: Varrock General Store, Zaff's Superior Staffs, Thessalia's Fine Clothes,
+added shops: Varrock General Store, Zaff's Superior Staffs, Thessalia's Fine Clothes, Horvik's Armor Shop, Lowe's Archery Emporium (Prices are way off), Aubury's rune Shop,
+Varrock Sword Shop
 internal: fixed up a problem with adding certain shop numbers to shops.cfg,

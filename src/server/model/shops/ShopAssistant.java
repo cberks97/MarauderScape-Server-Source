@@ -127,7 +127,7 @@ public class ShopAssistant {
 		int ShopValue = (int)Math.floor(getItemShopValue(removeId, 0, removeSlot));
 		ShopValue *= 1.15;
 		String ShopAdd = "";
-		if (c.myShopId >= 17) {
+		if (c.myShopId >= 100) {
 			c.sendMessage(c.getItems().getItemName(removeId)+": currently costs " + getSpecialItemValue(removeId) + " points.");
 			return;
 		}
@@ -136,10 +136,6 @@ public class ShopAssistant {
 			return;
 		}
 			
-		if (c.myShopId == 9 ) {
-			c.sendMessage("This item currently costs " + getSpecialItemValue(removeId) + " coins.");
-			return;
-		}
 		if (ShopValue >= 1000 && ShopValue < 1000000) {
 			ShopAdd = " (" + (ShopValue / 1000) + "K)";
 		} else if (ShopValue >= 1000000) {

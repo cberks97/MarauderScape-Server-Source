@@ -751,7 +751,11 @@ public class ItemAssistant {
 			case 1189:
 			case 1117:
 			case 1155:
-			c.defenceLevelReq = 99;
+			c.defenceLevelReq = 1;
+			return;
+			
+			case 1201:
+			c.defenceLevelReq = 40;
 			return;
 
 			case 10551:
