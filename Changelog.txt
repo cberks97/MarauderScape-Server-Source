@@ -1,0 +1,9 @@
+CHANGELOG
+
+JANUARY:
+
+1/23/15
+added npc's: Hans, Father Aereak, Bob, man, Lumbridge guide, Shop keeper(lumby), shop assistant(lumby)
+added shops: Bob's Brilliant Axes, Lumbridge General Store,
+updated drops: men(coins from 100 to 2), 
+-Colin
