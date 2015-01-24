@@ -135,14 +135,7 @@ public class ShopAssistant {
 			c.sendMessage("This item currently costs " + c.getItems().getUntradePrice(removeId) + " coins.");
 			return;
 		}
-			if (c.myShopId == 13 ) {
-			c.sendMessage("This item currently costs " + getSpecialItemValue(removeId) + " coins.");
-			return;
-		}
-			if (c.myShopId == 14 ) {
-			c.sendMessage("This item currently costs " + getSpecialItemValue(removeId) + " coins.");
-			return;
-		}
+			
 		if (c.myShopId == 9 ) {
 			c.sendMessage("This item currently costs " + getSpecialItemValue(removeId) + " coins.");
 			return;

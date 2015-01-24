@@ -836,6 +836,22 @@ break;
 			case 660:
 				c.getDH().sendDialogues(39, npcType);
 			break;
+			//Varrock Gen store keeper
+			case 551:
+				c.getShops().openShop(1);
+			break;
+			//Varrock Gen store assistant
+			case 552:
+				c.getShops().openShop(1);
+			break;
+			//Zaff's Superior Staffs
+			case 546:
+				c.getShops().openShop(14);
+			break;
+			//Thessalia's Fine Clothes
+			case 548:
+				c.getShops().openShop(13);
+			break;
 			//Lumby Gen store keeper
 			case 520:
 				c.getShops().openShop(15);
@@ -850,9 +866,6 @@ break;
 			//Bob's Axes
 			case 519:
 				c.getShops().openShop(8);
-			break;
-			case 219:
-				c.getShops().openShop(14);
 			break;
 			case 2402:
 				c.getShops().openShop(31);

@@ -8,3 +8,9 @@ added shops: Bob's Brilliant Axes, Lumbridge General Store,
 updated drops: men(coins from 100 to 2), 
 updated shops: lumby gen store(various prices)
 -Colin
+
+1/24/15
+added npc's: shop keeper(varrock), shop assistant(varrock), Thessalia, Baraek, Gypsy Aris, 
+removed shops: all the ridiculous made-up shops in Varrock that were in this source, 
+added shops: Varrock General Store, Zaff's Superior Staffs, Thessalia's Fine Clothes,
+internal: fixed up a problem with adding certain shop numbers to shops.cfg,
