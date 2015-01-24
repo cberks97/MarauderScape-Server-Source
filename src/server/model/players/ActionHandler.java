@@ -836,8 +836,20 @@ break;
 			case 660:
 				c.getDH().sendDialogues(39, npcType);
 			break;
+			//Lumby Gen store keeper
+			case 520:
+				c.getShops().openShop(15);
+			break;
+			//lumby gen store assistant
+			case 521:
+				c.getShops().openShop(15);
+			break;
 			case 2244:
 				c.getShops().openShop(30);
+			break;
+			//Bob's Axes
+			case 519:
+				c.getShops().openShop(8);
 			break;
 			case 219:
 				c.getShops().openShop(14);
@@ -954,9 +966,6 @@ break;
 				c.getShops().openShop(6);
 			break;
 			
-			case 519:
-				c.getShops().openShop(8);
-			break;
 			case 1282:
 				c.getShops().openShop(7);
 			break;
