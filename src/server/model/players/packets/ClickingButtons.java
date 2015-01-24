@@ -686,7 +686,7 @@ break;
 			case 4171:
 			case 117048:
 			case 50056:
-			c.getPA().startTeleport(3222, 3218, 0, "modern");
+			c.getPA().startTeleport(3222,3217, 0, "modern");
 			c.sendMessage("@dbl@You have teleported home");
 			break;
 			

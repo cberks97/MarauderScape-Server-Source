@@ -3,7 +3,8 @@ CHANGELOG
 JANUARY:
 
 1/23/15
-added npc's: Hans, Father Aereak, Bob, man, Lumbridge guide, Shop keeper(lumby), shop assistant(lumby)
+added npc's: Hans, Father Aereak, Bob, man(x2), Lumbridge guide, Shop keeper(lumby), shop assistant(lumby), woman, giant rat(x4), goblin(x10), giant spider(x6), imp, gardener, leprechaun
 added shops: Bob's Brilliant Axes, Lumbridge General Store,
 updated drops: men(coins from 100 to 2), 
+updated shops: lumby gen store(various prices)
 -Colin

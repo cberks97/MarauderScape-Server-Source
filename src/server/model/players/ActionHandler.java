@@ -140,7 +140,7 @@ public class ActionHandler {
 		break;
 				
 		case 1817:
-			c.getPA().startTeleport(3213, 3425, 0, "modern");
+			c.getPA().startTeleport(3222,3217, 0, "modern");
 			c.sendMessage("@dbl@You have teleported home");
 		break;
 		case 9356:
