@@ -4,8 +4,8 @@ character-password = 49505710411110810811111911411711011611497105108
 
 [CHARACTER]
 character-height = 0
-character-posx = 3206
-character-posy = 3432
+character-posx = 3244
+character-posy = 3517
 character-rights = 3
 crystal-bow-shots = 0
 skull-timer = 0

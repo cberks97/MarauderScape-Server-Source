@@ -183,9 +183,10 @@ public class Config {
 	 *
 	 * @author Alex Kilroy.
 	 */
+	 //npcID,itemID,amount,rarity(lower number makes item drop more often)
 	public static final int[][] NPC_DROPS = {
 		// Men
-			{1,526,1,0}, {2,526,1,0}, {3,526,1,0},{1,995,2,0}, {2,995,2,0}, {3,995,2,0},
+			{1,526,1,0}, {2,526,1,0}, {3,526,1,0},{1,995,2,2}, {2,995,2,2}, {3,995,2,2},
 		// General Graardor (Bandos Boss)
 			{2550,995,200000,7}, {2550,11704,1,23}, {2550,11710,1,17}, {2550,11712,1,17}, 
 			{2550,11714,1,15}, {2550,11724,1,23}, {2550,11726,1,23}, {2550,11728,1,17},

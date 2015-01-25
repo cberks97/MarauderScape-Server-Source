@@ -3,16 +3,17 @@ CHANGELOG
 JANUARY:
 
 1/23/15
-added npc's: Hans, Father Aereak, Bob, man(x2), Lumbridge guide, Shop keeper(lumby), shop assistant(lumby), woman, giant rat(x4), goblin(x10), giant spider(x6), imp, gardener, leprechaun
-added shops: Bob's Brilliant Axes, Lumbridge General Store,
-updated drops: men(coins from 100 to 2), 
-updated shops: lumby gen store(various prices)
+*added npc's: Hans, Father Aereak, Bob, man(x2), Lumbridge guide, Shop keeper(lumby), shop assistant(lumby), woman, giant rat(x4), goblin(x10), giant spider(x6), imp, gardener, leprechaun
+*added shops: Bob's Brilliant Axes, Lumbridge General Store,
+*updated drops: men(coins from 100 to 2), 
+*updated shops: lumby gen store(various prices)
 -Colin
 
 1/24/15
-added npc's: shop keeper(varrock), shop assistant(varrock), Thessalia, Baraek, Gypsy Aris, Horvik, Lowe, Aubury, shopkeeper(sword shop), tramp(x3), man, Johnny the Beard, Dr Harlow, 
+*added npc's: shop keeper(varrock), shop assistant(varrock), Thessalia, Baraek, Gypsy Aris, Horvik, Lowe, Aubury, shopkeeper(sword shop), tramp(x3), man, Johnny the Beard, Dr Harlow, 
 Bartender, barbarian woman, guard(x17), 
-removed shops: all the ridiculous made-up shops in Varrock that were in this source, 
-added shops: Varrock General Store, Zaff's Superior Staffs, Thessalia's Fine Clothes, Horvik's Armor Shop, Lowe's Archery Emporium (Prices are way off), Aubury's rune Shop,
+*removed shops: all the ridiculous made-up shops in Varrock that were in this source, 
+*added shops: Varrock General Store, Zaff's Superior Staffs, Thessalia's Fine Clothes, Horvik's Armor Shop, Lowe's Archery Emporium (Prices are way off), Aubury's rune Shop,
 Varrock Sword Shop
-internal: fixed up a problem with adding certain shop numbers to shops.cfg,
+*internal: fixed up a problem with adding certain shop numbers to shops.cfg,
+*added Wilderness Warning Interface

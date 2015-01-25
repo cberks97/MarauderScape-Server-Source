@@ -70,6 +70,16 @@ public class Client extends Player {
 	public int clawDelay = 0;
 	public int previousDamage;
 	public boolean usingClaws = false;
+	public boolean WildernessWarning = false;
+	
+	public void wildyWarning() {
+	getPA().sendFrame126("WARNING!", 6940);
+        //Edit the below if you want to change the text, and delete the slashes.
+	//getPA().sendFrame126("Proceed with caution. If you go much further north you will enter the\nwilderness. This is a very dangerous area where other players can attack you!", 6939);
+	//getPA().sendFrame126("The further north you go the more dangerous it becomes, but there is more\ntreasure to be found.", 6941);
+	//getPA().sendFrame126("In the wilderness an indicator at the bottom-right of the screen\nwill show the current level of danger.", 6942);
+	getPA().showInterface(1908);
+	}
 
 	public void clueScroll(int i1, int a1, int i2, int a2, int i3, int a3, int i4,int a4,int clueID){
 		getPA().showInterface(6960);
@@ -378,7 +388,11 @@ getPA().sendFrame126("", 17510); //quest title
 
 
 
-		
+		if (inWild() == true && WildernessWarning == false) {
+			resetWalkingQueue();
+			wildyWarning();
+			WildernessWarning = true;
+		}
 		if (wcTimer > 0 && woodcut[0] > 0) {
 			wcTimer--;
 		} else if (wcTimer == 0 && woodcut[0] > 0) {
