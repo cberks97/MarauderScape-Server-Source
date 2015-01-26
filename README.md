@@ -3,7 +3,6 @@ and the actual server(run.bat). Best way to learn how to make changes is to use 
 but be sure to add to the changelog that I add so we all know what the heck we did. 
 
 HELP: Add your questions or problems here and someone can try to answer or fix for you.
-- I need help getting all of the doors to open. I've tried the code and its just something I can't figure out at the moment.-Colin
 - I also am having trouble adding defence requirement to rune armor. All help appreciated. -Colin
 
 COMMANDS:(Plan to remove several of these, such as ::home, ::pure, ::reset, etc, as this is going to be a remake with no customs)

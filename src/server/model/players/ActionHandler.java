@@ -584,6 +584,7 @@ if (c.objectX == 3096   && c.objectY == 3511){
 			} else if (c.absX == 2921) {
 				c.getPA().walkTo(1, 0);
 			}
+		case 1536:
 		case 1531:
 		case 1533:
 		case 1534:

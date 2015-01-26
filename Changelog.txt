@@ -17,3 +17,8 @@ Bartender, barbarian woman, guard(x17),
 Varrock Sword Shop
 *internal: fixed up a problem with adding certain shop numbers to shops.cfg,
 *added Wilderness Warning Interface
+-Colin
+
+1/26/15
+*made several doors in lumbridge sort of work (many open the wrong direction or teleport slightly. will need to fix),
+*added npc's: cook
