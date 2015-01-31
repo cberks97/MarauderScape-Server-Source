@@ -522,9 +522,14 @@ public class Commands implements PacketType {
 				c.sendMessage("@dbl@Welcome To The Moderator Zone.");
 				}
 					
-			if(playerCommand.equalsIgnoreCase("home") && c.playerRights >= 0) {             
+			if(playerCommand.equalsIgnoreCase("home") && c.playerRights >= 1) {             
 				c.getPA().movePlayer(3222,3217,0);
 				c.sendMessage("@dbl@You have teleported home");
+				}
+				
+			if(playerCommand.equalsIgnoreCase("edgeville") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(3093,3493,0);
+				c.sendMessage("@dbl@You have teleported to Edgeville");
 				}
 			
 			if(playerCommand.equalsIgnoreCase("party") && c.playerRights >= 0) {             

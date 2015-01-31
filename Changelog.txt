@@ -22,3 +22,12 @@ Varrock Sword Shop
 1/26/15
 *made several doors in lumbridge sort of work (many open the wrong direction or teleport slightly. will need to fix),
 *added npc's: cook
+
+1/30/15
+*add npc's: sheep(x6), cow(x8), cow calf(x2), 
+*added milking cows (use bucket on the cow)
+*updated drops: cow(bones, raw beef, cowhide), cow calf(bones, raw beef, cowhide)
+*added pickpocketing for all men and women
+*fixed ladders: taverly dungeon, lumbridge cellar,
+*added commands: ::edgeville(teles to edgeville), 
+*fixed stairs: lumby castle (first floor both sides only)

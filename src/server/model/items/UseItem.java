@@ -16,6 +16,17 @@ public class UseItem {
 		if (!c.getItems().playerHasItem(itemId, 1))
 			return;
 		switch(objectID) {
+			case 8689:
+				if(c.getItems().playerHasItem(1925, 1) && c.objectId == 8689) {
+					c.turnPlayerTo(c.objectX, c.objectY);
+					c.startAnimation(2292);
+					c.getItems().addItem(1927 ,1);
+					c.getItems().deleteItem(1925, 1);
+					
+				} else {
+					   c.sendMessage("You need a bucket to milk a cow!");
+					}
+				break;
 			case 2783:
 				c.getSmithingInt().showSmithInterface(itemId);
 			break;

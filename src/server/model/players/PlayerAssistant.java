@@ -1050,6 +1050,13 @@ public void castVeng() {
 		c.newLocation = 0;
 	}
 	
+	//stairs and ladders
+	public void movePlayer1(int x, int y) {
+		c.resetWalkingQueue();
+		c.teleportToX = x;
+        c.teleportToY = y;
+		requestUpdates();
+	}
 	
 	/**
 	* Teleporting

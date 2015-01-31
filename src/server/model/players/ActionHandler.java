@@ -4,7 +4,9 @@ import server.Config;
 import server.Server;
 import server.model.objects.Object;
 import server.util.Misc;
-
+import server.event.EventManager;
+import server.event.Event;
+import server.event.EventContainer;
 
 public class ActionHandler {
 	
@@ -19,7 +21,47 @@ public class ActionHandler {
 		c.clickObjectType = 0;
 		//c.sendMessage("Object type: " + objectType);
 		switch(objectType) {
-
+		
+		//ladders
+		case 2269://shilo
+		case 1746://going down, edge and lots of places
+		case 3205://barb course, height = 2
+		c.startAnimation(827);
+		EventManager.getSingleton().addEvent(new Event() {
+			public void execute(EventContainer p) {
+				c.getPA().movePlayer1(c.getX(), c.getY());
+				c.heightLevel -= 1;
+				p.stop();
+			}
+		}, 500);
+		
+		break;
+		case 1750://shilo
+		case 1747://going up, edge and lots of places
+		case 2268://shilo second lvl going to 3rd
+		c.startAnimation(828);
+		EventManager.getSingleton().addEvent(new Event() {
+			public void execute(EventContainer p) {
+				c.getPA().movePlayer1(c.getX(), c.getY());
+				c.heightLevel += 1;
+				p.stop();
+			}
+		}, 500);
+		break;
+		
+case 8689:
+			if(System.currentTimeMillis() - c.buryDelay > 1500) {
+			if(c.getItems().playerHasItem(1925, 1)) {
+					c.turnPlayerTo(c.objectX, c.objectY);
+					c.startAnimation(2292);
+					c.getItems().addItem(1927 ,1);
+					c.getItems().deleteItem(1925, 1);
+					c.buryDelay = System.currentTimeMillis();
+				} else {
+					   c.sendMessage("You need a bucket to milk a cow!");
+					}
+			}
+		break;
 		case 9299:
 			if (c.absY <= 3190) {
 					c.getPA().walkTo(0, 1);
@@ -263,28 +305,7 @@ public class ActionHandler {
 		case 4420:
 		case 4469:
 		case 4470:
-                case 1746:
-if (c.objectX == 3083   && c.objectY == 3513){                
-               c.startAnimation(828);                
-               c.getPA().movePlayer(3083, 3512, 0);
-               }
-if (c.objectX == 3096   && c.objectY == 3511){                
-               c.startAnimation(828);                
-               c.getPA().movePlayer(3097, 3511, 0);
-               }
-               break;
-                case 4911:
-		case 4912:
-                case 1747:
-if (c.objectX == 3083   && c.objectY == 3513){                
-               c.startAnimation(828);                
-               c.getPA().movePlayer(3083, 3512, 1);
-               }
-if (c.objectX == 3096   && c.objectY == 3511){                
-               c.startAnimation(828);                
-               c.getPA().movePlayer(3097, 3511, 1);
-               }
-               break;
+               
                case 1757:
  			Server.castleWars.handleObjects(c, objectType, obX, obY);
 		break;
@@ -645,10 +666,53 @@ if (c.objectX == 3096   && c.objectY == 3511){
 				c.getPA().walkTo(0,-1);
 		break;
 		
+		case 1755:
+			if (c.objectX == 2884 && c.objectY == 9797)
+				c.getPA().movePlayer(c.absX, c.absY - 6400, 0);	
+				
+				else if (c.objectX == 3209 && c.objectY == 9616)
+					c.getPA().movePlayer(c.absX, c.absY - 6400, 0);		
+		break;
+		
 		case 1759:
 			if (c.objectX == 2884 && c.objectY == 3397)
 				c.getPA().movePlayer(c.absX, c.absY + 6400, 0);				
 		break;
+		
+		case 14879:
+			if (c.objectX == 3209 && c.objectY == 3216)
+				c.getPA().movePlayer(c.absX, c.absY + 6400, 0);				
+		break;
+		
+		case 1738:
+			if (c.objectX == 3204 && c.objectY == 3207){
+				c.getPA().movePlayer(c.absX, c.absY, 1);
+				c.sendMessage("You climb up the stairs.");
+				}
+			else if (c.objectX == 3204 && c.objectY == 3229){
+				c.getPA().movePlayer(c.absX, c.absY, 1);
+				c.sendMessage("You climb up the stairs.");
+				}
+				break;
+				
+		case 1739:
+			if (c.objectX == 3204 && c.objectY == 3207){
+				c.getPA().movePlayer(c.absX, c.absY, 0);
+				}
+			else if (c.objectX == 3204 && c.objectY == 3207){
+				c.getPA().movePlayer(c.absX, c.absY, 1);
+				}
+				break;
+		
+		case 1740:
+			if (c.objectX == 3204 && c.objectY == 3229){
+				c.getPA().movePlayer(c.absX, c.absY, 0);
+				}
+			else if (c.objectX == 3204 && c.objectY == 3229){
+				c.getPA().movePlayer(c.absX, c.absY, 1);
+				}
+				break;
+		
 		/*case 3203: //dueling forfeit
 			if (c.duelCount > 0) {
 				c.sendMessage("You may not forfeit yet.");
@@ -787,6 +851,28 @@ break;
 		c.clickObjectType = 0;
 		//c.sendMessage("Object type: " + objectType);
 		switch(objectType) {
+		case 8689:
+			if(System.currentTimeMillis() - c.buryDelay > 1500) {
+			if(c.getItems().playerHasItem(1925, 1)) {
+					c.turnPlayerTo(c.objectX, c.objectY);
+					c.startAnimation(2292);
+					c.getItems().addItem(1927 ,1);
+					c.getItems().deleteItem(1925, 1);
+					c.buryDelay = System.currentTimeMillis();
+				} else {
+					   c.sendMessage("You need a bucket to milk a cow!");
+					}
+			}
+		break;
+		
+		case 1739: //lumbridge stairs
+			if(c.objectX == 3204 && c.objectY == 3229) {
+				c.getPA().movePlayer(3205, 3228, 2);
+			} else if(c.objectX == 3204 && c.objectY == 3207) {
+				c.getPA().movePlayer(3205, 3209, 2);
+			}
+			break;
+			
 			case 11666:
 			case 3044:
 				c.getSmithing().sendSmelting();
@@ -1048,9 +1134,10 @@ break;
 			case 566:
 				c.getDH().sendDialogues(36, npcType);
 			break;
-		}
+			
+			
 	}
-
+}
 	public void secondClickNpc(int npcType) {
 		c.clickNpcType = 0;
 		c.npcClickIndex = 0;

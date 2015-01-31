@@ -18,6 +18,7 @@ import server.event.EventManager;
 import server.event.Event;
 import server.event.EventContainer;
 
+
 public class NPCHandler {
 	public static int maxNPCs = 10000;
 	public static int maxListedNPCs = 10000;

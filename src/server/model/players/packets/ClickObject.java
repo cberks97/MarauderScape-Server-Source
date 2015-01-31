@@ -5,6 +5,8 @@ import server.model.players.PacketType;
 import server.util.Misc;
 
 /**
+
+
  * Click Object
  */
 public class ClickObject implements PacketType {
@@ -110,6 +112,19 @@ public class ClickObject implements PacketType {
 				}
 				case 6552:
 				case 409:
+				
+				case 1738:
+					c.objectDistance = 1;
+				break;
+				
+				case 1739:
+					c.objectDistance = 1;
+				break;
+				
+				case 1740:
+					c.objectDistance = 1;
+				break;
+				
 				case 410:
 					c.objectDistance = 2;
 				break;
@@ -155,6 +170,7 @@ public class ClickObject implements PacketType {
 					c.objectDistance = 0;
 					c.objectYOffset = -1;
 				break;
+
 				case 4419:
 				case 6707: // verac
 				c.objectYOffset = 3;

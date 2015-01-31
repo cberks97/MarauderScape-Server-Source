@@ -4,6 +4,7 @@ but be sure to add to the changelog that I add so we all know what the heck we d
 
 HELP: Add your questions or problems here and someone can try to answer or fix for you.
 - I also am having trouble adding defence requirement to rune armor. All help appreciated. -Colin
+- Incredibly frustrated by doors. I'm giving up on them and teleporting for now. -Colin
 
 COMMANDS:(Plan to remove several of these, such as ::home, ::pure, ::reset, etc, as this is going to be a remake with no customs)
 Also, here are the commands you can use to make developing easier-
@@ -52,3 +53,5 @@ Also, here are the commands you can use to make developing easier-
 -ipmute (use to ipmute spammers from another site)
 -unipmute ( unipmute the unwanted players... -.- why would you even use this? )
 -unmute (unmute a player)
+-edgeville (teles to edgeville)
+
