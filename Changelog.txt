@@ -34,3 +34,5 @@ Varrock Sword Shop
 
 2/1/15
 *added npc's: big npc update I merged a list from online in, added lots of missing npc's and corrected their stats. Check spawn-config for all the changes.
+*added commands: varrock, falador, ardougne, catherby, tutorial island, yanille, camelot, seers village, lumbridge, al kharid, pollnivneach, burthorpe, 
+*removed commands: home
