@@ -31,3 +31,6 @@ Varrock Sword Shop
 *fixed ladders: taverly dungeon, lumbridge cellar,
 *added commands: ::edgeville(teles to edgeville), 
 *fixed stairs: lumby castle (first floor both sides only)
+
+2/1/15
+*added npc's: big npc update I merged a list from online in, added lots of missing npc's and corrected their stats. Check spawn-config for all the changes.

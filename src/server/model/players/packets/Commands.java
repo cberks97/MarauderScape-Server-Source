@@ -522,16 +522,63 @@ public class Commands implements PacketType {
 				c.sendMessage("@dbl@Welcome To The Moderator Zone.");
 				}
 					
-			if(playerCommand.equalsIgnoreCase("home") && c.playerRights >= 1) {             
+			if(playerCommand.equalsIgnoreCase("lumbridge") && c.playerRights >= 1) {             
 				c.getPA().movePlayer(3222,3217,0);
-				c.sendMessage("@dbl@You have teleported home");
+				c.sendMessage("@dbl@You have teleported Lumbridge");
 				}
-				
 			if(playerCommand.equalsIgnoreCase("edgeville") && c.playerRights >= 1) {             
 				c.getPA().movePlayer(3093,3493,0);
 				c.sendMessage("@dbl@You have teleported to Edgeville");
 				}
-			
+			if(playerCommand.equalsIgnoreCase("falador") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2964,3378,0);
+				c.sendMessage("@dbl@You have teleported to Falador");
+				}
+			if(playerCommand.equalsIgnoreCase("varrock") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(3210,3424,0);
+				c.sendMessage("@dbl@You have teleported to Varrock");
+				}	
+			if(playerCommand.equalsIgnoreCase("camelot") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2757,3477,0);
+				c.sendMessage("@dbl@You have teleported to Camelot");
+				}	
+			if(playerCommand.equalsIgnoreCase("ardougne") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2662,3305,0);
+				c.sendMessage("@dbl@You have teleported to Ardougne");
+				}	
+			if(playerCommand.equalsIgnoreCase("al kharid") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(3293,3174,0);
+				c.sendMessage("@dbl@You have teleported to Al Kharid");
+				}	
+			if(playerCommand.equalsIgnoreCase("pollnivneach") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(3359,2910,0);
+				c.sendMessage("@dbl@You have teleported to Pollnivneach");
+				}	
+			if(playerCommand.equalsIgnoreCase("yanille") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2606,3093,0);
+				c.sendMessage("@dbl@You have teleported to Yanille");
+				}	
+			if(playerCommand.equalsIgnoreCase("tutorial island") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(3094,3107,0);
+				c.sendMessage("@dbl@You have teleported to Tutorial Island");
+				}	
+			if(playerCommand.equalsIgnoreCase("catherby") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2813,3447,0);
+				c.sendMessage("@dbl@You have teleported to Catherby");
+				}	
+			if(playerCommand.equalsIgnoreCase("seers village") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2708,3492,0);
+				c.sendMessage("@dbl@You have teleported to Seer's Village");
+				}	
+			if(playerCommand.equalsIgnoreCase("burthorpe") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(2926,3559,0);
+				c.sendMessage("@dbl@You have teleported to Burthorpe");
+				}	
+			if(playerCommand.equalsIgnoreCase("canifis") && c.playerRights >= 1) {             
+				c.getPA().movePlayer(3506,3496,0);
+				c.sendMessage("@dbl@You have teleported to Canifis");
+				}	
+																													
 			if(playerCommand.equalsIgnoreCase("party") && c.playerRights >= 0) {             
 				c.getPA().movePlayer(2736,3475,0);
 				c.sendMessage("@dbl@Enjoy The Party!");

@@ -37,7 +37,6 @@ Also, here are the commands you can use to make developing easier-
 -npc (spawn an npc, Ex : ::npc 99)
 -mypos ( gives your coordinate position)
 -modzone (where mod's hang, not 100% finished but you can add on to it)
--home ( tele you home, "Duh")
 -party ( tele you to party room, chest not 100% finished but you can fix it  )
 -modern ( switch to modern magic)
 -ancient ( switch to ancient magic)
@@ -53,5 +52,20 @@ Also, here are the commands you can use to make developing easier-
 -ipmute (use to ipmute spammers from another site)
 -unipmute ( unipmute the unwanted players... -.- why would you even use this? )
 -unmute (unmute a player)
--edgeville (teles to edgeville)
+
+city teles obviously will tele you to the city
+-lumbridge
+-edgeville  
+-canifis
+-burthorpe
+-varrock
+-falador
+-seers village
+-al kharid
+-tutorial island
+-camelot
+-yanille
+-catherby
+-pollnivneach
+-ardougne
 
