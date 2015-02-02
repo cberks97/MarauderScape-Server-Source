@@ -281,6 +281,7 @@ public void removeAttribute(String key) {
 			sendMessage("@red@MarauderScape version: 0.0.1!");
 			sendMessage("@red@Latest Update: 1/23/15");
 			sendMessage("@red@Welcoming Mr. Fox to the project!");
+			sendMessage("@purple@too bad Mr. Fox won't be existing for awhile.")
 			getPA().showOption(4, 0,"Trade", 3);
 			getPA().showOption(5, 0,"Follow", 4);
 			getItems().resetItems(3214);
