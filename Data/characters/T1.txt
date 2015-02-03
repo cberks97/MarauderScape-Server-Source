@@ -1,11 +1,11 @@
 [ACCOUNT]
 character-username = T1
-character-password = 116101115116
+character-password = 11649
 
 [CHARACTER]
 character-height = 0
-character-posx = 3228
-character-posy = 3437
+character-posx = 3259
+character-posy = 3228
 character-rights = 0
 crystal-bow-shots = 0
 skull-timer = 0
@@ -16,15 +16,15 @@ brother-info = 2	0
 brother-info = 3	0
 brother-info = 4	0
 brother-info = 5	0
-special-amount = 10.0
+special-amount = 2.5
 selected-coffin = 0
 barrows-killcount = 0
 teleblock-length = 0
 pc-points = 0
 slayerTask = 0
 taskAmount = 0
-magePoints = 60
-autoRet = 0
+magePoints = 10
+autoRet = 1
 barrowskillcount = 0
 flagged = false
 wave = 0
@@ -36,14 +36,14 @@ pkPoints = 0
 memberStatus = 1
 
 [EQUIPMENT]
-character-equip = 0	-1	1	
+character-equip = 0	1137	1	
 character-equip = 1	-1	1	
 character-equip = 2	-1	1	
 character-equip = 3	1321	1	
-character-equip = 4	-1	1	
-character-equip = 5	-1	1	
+character-equip = 4	1101	1	
+character-equip = 5	1175	1	
 character-equip = 6	-1	0	
-character-equip = 7	-1	1	
+character-equip = 7	1067	1	
 character-equip = 8	-1	0	
 character-equip = 9	-1	1	
 character-equip = 10	-1	1	
@@ -69,10 +69,10 @@ character-look = 12	0
 [SKILLS]
 character-skill = 0	1	0
 character-skill = 1	1	0
-character-skill = 2	3	200
-character-skill = 3	11	1360
+character-skill = 2	2	140
+character-skill = 3	10	1342
 character-skill = 4	1	0
-character-skill = 5	1	125
+character-skill = 5	1	0
 character-skill = 6	1	0
 character-skill = 7	1	0
 character-skill = 8	1	0
@@ -80,7 +80,7 @@ character-skill = 9	1	0
 character-skill = 10	1	0
 character-skill = 11	1	0
 character-skill = 12	1	0
-character-skill = 13	10	1170
+character-skill = 13	1	0
 character-skill = 14	1	0
 character-skill = 15	1	0
 character-skill = 16	1	0
@@ -94,12 +94,7 @@ character-skill = 23	1	0
 character-skill = 24	1	0
 
 [ITEMS]
-character-item = 0	996	499750
-character-item = 1	1104	1
-character-item = 2	1088	1
-character-item = 3	1140	1
-character-item = 4	1174	1
-character-item = 5	2348	1
+character-item = 0	996	500000
 character-item = 6	842	1
 character-item = 7	1096	1
 character-item = 8	1130	1
@@ -108,7 +103,6 @@ character-item = 10	557	100
 character-item = 11	555	100
 character-item = 12	556	100
 character-item = 13	558	100
-character-item = 14	1206	1
 
 [BANK]
 

@@ -25,6 +25,7 @@ public class ActionHandler {
 		//ladders
 		case 2269://shilo
 		case 1746://going down, edge and lots of places
+		case 1749://lots of places
 		case 3205://barb course, height = 2
 		c.startAnimation(827);
 		EventManager.getSingleton().addEvent(new Event() {

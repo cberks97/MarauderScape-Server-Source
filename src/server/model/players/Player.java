@@ -618,8 +618,8 @@ public abstract class Player {
 		
 		heightLevel = 0;
 		
-		teleportToX = 3213;
-		teleportToY = 3425;
+		teleportToX = 3222;
+		teleportToY = 3217;
 
 		
 		absX = absY = -1;

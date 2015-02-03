@@ -39,9 +39,9 @@ public class Config {
 	public static final boolean MOD_DROP_ITEMS = true; // can admin drop items?
 	
 	public static final int START_LOCATION_X = 3222; // start here
-	public static final int START_LOCATION_Y = 3219; // 
+	public static final int START_LOCATION_Y = 3217; // 
 	public static final int RESPAWN_X = 3222; // when dead respawn here
-	public static final int RESPAWN_Y = 3219;
+	public static final int RESPAWN_Y = 3217;
 	public static final int DUELING_RESPAWN_X = 3362; // when dead in duel area spawn here
 	public static final int DUELING_RESPAWN_Y = 3263;
 	public static final int RANDOM_DUELING_RESPAWN = 5; // random coords

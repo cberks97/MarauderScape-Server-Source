@@ -4,8 +4,8 @@ character-password = 49505710411110810811111911411711011611497105108
 
 [CHARACTER]
 character-height = 0
-character-posx = 3020
-character-posy = 3373
+character-posx = 2798
+character-posy = 3433
 character-rights = 3
 crystal-bow-shots = 0
 skull-timer = -1
@@ -16,7 +16,7 @@ brother-info = 2	0
 brother-info = 3	0
 brother-info = 4	2
 brother-info = 5	0
-special-amount = 99980.0
+special-amount = 99900.0
 selected-coffin = 0
 barrows-killcount = 2
 teleblock-length = 0
@@ -69,15 +69,15 @@ character-look = 12	7
 [SKILLS]
 character-skill = 0	99	13034836
 character-skill = 1	99	13034436
-character-skill = 2	99	13134836
-character-skill = 3	99	13067926
+character-skill = 2	99	13149056
+character-skill = 3	99	13072657
 character-skill = 4	99	13034436
 character-skill = 5	99	13035811
 character-skill = 6	99	13034436
 character-skill = 7	99	13034436
 character-skill = 8	99	13046461
 character-skill = 9	99	13034436
-character-skill = 10	99	13034436
+character-skill = 10	99	13036186
 character-skill = 11	99	13034436
 character-skill = 12	99	13034436
 character-skill = 13	99	13034436
@@ -95,6 +95,14 @@ character-skill = 24	1	0
 
 [ITEMS]
 character-item = 0	6740	1
+character-item = 1	304	1
+character-item = 2	318	1
+character-item = 3	318	1
+character-item = 4	318	1
+character-item = 5	318	1
+character-item = 6	318	1
+character-item = 7	318	1
+character-item = 8	318	1
 
 [BANK]
 character-bank = 0	996	500875
