@@ -926,6 +926,30 @@ break;
 			case 660:
 				c.getDH().sendDialogues(39, npcType);
 			break;
+			//Fally gen store keeper
+			case 526:
+				c.getShops().openShop(18);
+			break;
+			//Fally gen store assistant
+			case 527:
+				c.getShops().openShop(18);
+			break;
+			//Herquin's Gems
+			case 584:
+				c.getShops().openShop(5);
+			break;
+			//Flynn's Mace Market
+			case 580:
+				c.getShops().openShop(4);
+			break;
+			//Wayne's Chains!
+			case 581:
+				c.getShops().openShop(3);
+			break;
+			//Cassie's Shield Shop
+			case 577:
+				c.getShops().openShop(2);
+			break;
 			//Varrock Gen store keeper
 			case 551:
 				c.getShops().openShop(1);

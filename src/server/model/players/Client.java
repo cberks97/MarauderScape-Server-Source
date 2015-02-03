@@ -278,9 +278,9 @@ public void removeAttribute(String key) {
 			setSidebarInterface(13, -1);
 			setSidebarInterface(0, 2423);
 			sendMessage("@red@Welcome to MarauderScape!");
-			sendMessage("@red@MarauderScape version: 0.0.1!");
-			sendMessage("@red@Latest Update: 1/23/15");
-			sendMessage("@red@Welcoming Mr. Fox to the project!");
+			sendMessage("@red@Version: 0.0.1!");
+			sendMessage("@red@Latest Update: 2/2/15");
+			sendMessage("@red@Welcoming Tim and Mike to the project!");
 			getPA().showOption(4, 0,"Trade", 3);
 			getPA().showOption(5, 0,"Follow", 4);
 			getItems().resetItems(3214);
