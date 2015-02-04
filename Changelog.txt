@@ -50,3 +50,4 @@ Varrock Sword Shop
 2/3/15
 *updated shops: fixed Falador General Store items (again)
 *messed with some dialogue, got bored...
+*Made the damn thing like eclipse
