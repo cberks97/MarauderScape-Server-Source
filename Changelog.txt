@@ -45,3 +45,8 @@ Varrock Sword Shop
 **updated npc's: HUGE npc update. Seems like most, if not all of the f2p area and lots of members as well. (I ripped em all but why do unnecessary work!?!?)
 *added shops: Flynn's Mace Market, Wayne's Chains!, Cassie's Shield Shop, Herquin's Gems, Falador General Store
 *MOST free-standing ladders that don't involve a trapdoor should be working now!
+-Colin
+
+2/3/15
+*updated shops: fixed Falador General Store items (again)
+*messed with some dialogue, got bored...

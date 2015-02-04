@@ -4,8 +4,8 @@ character-password = 49505710411110810811111911411711011611497105108
 
 [CHARACTER]
 character-height = 0
-character-posx = 2798
-character-posy = 3433
+character-posx = 2964
+character-posy = 3378
 character-rights = 3
 crystal-bow-shots = 0
 skull-timer = -1
@@ -69,8 +69,8 @@ character-look = 12	7
 [SKILLS]
 character-skill = 0	99	13034836
 character-skill = 1	99	13034436
-character-skill = 2	99	13149056
-character-skill = 3	99	13072657
+character-skill = 2	99	13149656
+character-skill = 3	99	13072857
 character-skill = 4	99	13034436
 character-skill = 5	99	13035811
 character-skill = 6	99	13034436

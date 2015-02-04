@@ -92,7 +92,7 @@ public class DialogueHandler {
 			c.dialogueAction = 14;
 		break;
 		case 24:
-			sendNpcChat1("Yes, its true.. me and Romeo broked up :(", c.talkingNpc, "Juliet");
+			sendNpcChat1("Well, Romeo and I broke up... so I'm single ;).", c.talkingNpc, "Juliet");
 			c.nextChat = 0;
 		break;
 		case 25:
@@ -120,7 +120,7 @@ public class DialogueHandler {
 			c.nextChat = 0;
 		break;
 		case 31:
-			sendNpcChat1("I miss her :(", c.talkingNpc, "Romeo");
+			sendNpcChat1("Hey! I'll have my normal dialogue soon enough!", c.talkingNpc, "Romeo");
 			c.nextChat = 0;
 		break;
 		case 32:
