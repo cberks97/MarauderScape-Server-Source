@@ -1,13 +1,13 @@
-package server.model.players.packets;
-import server.model.players.content.*;
+package src.server.model.players.packets;
 
-import server.Config;
-import server.Server;
-import server.model.items.GameItem;
-import server.model.players.Client;
-import server.model.players.SkillMenu;
-import server.model.players.PacketType;
-import server.util.Misc;
+
+import src.server.Config;
+import src.server.Server;
+import src.server.model.items.GameItem;
+import src.server.model.players.Client;
+import src.server.model.players.SkillMenu;
+import src.server.model.players.PacketType;
+import src.server.util.Misc;
 
 /**
  * Clicking most buttons

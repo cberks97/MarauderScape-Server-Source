@@ -1,6 +1,6 @@
-package server.model.players;
+package src.server.model.players;
 
-import server.util.Misc;
+import src.server.util.Misc;
 
 public class DialogueHandler {
 

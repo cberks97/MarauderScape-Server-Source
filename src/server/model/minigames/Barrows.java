@@ -1,7 +1,7 @@
-package server.model.minigames;
+package src.server.model.minigames;
 
-import server.model.players.Client;
-import server.util.Misc;
+import src.server.model.players.Client;
+import src.server.util.Misc;
 
 public class Barrows {
 

@@ -1,8 +1,8 @@
-package server.world;
+package src.server.world;
 
-import server.model.players.Client;
-import server.util.Misc;
-import server.Server;
+import src.server.model.players.Client;
+import src.server.util.Misc;
+import src.server.Server;
 
 import java.util.ArrayList;
 
@@ -196,7 +196,7 @@ public class ClanChatHandler {
 	
 	
 	public void handleLootShare(Client c, int item, int amount) {
-		sendLootShareMessage(c.clanId, c.playerName + " has received " + amount + "x " + server.model.items.Item.getItemName(item) + ".");	
+		sendLootShareMessage(c.clanId, c.playerName + " has received " + amount + "x " + src.server.model.items.Item.getItemName(item) + ".");	
 	}
 	
 }

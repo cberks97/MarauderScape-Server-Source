@@ -1,4 +1,4 @@
-package server.util;
+package src.server.util;
 
 public class SimpleTimer {
 

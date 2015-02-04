@@ -1,8 +1,8 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.Config;
-import server.util.Misc;
-import server.model.players.Client;
+import src.server.Config;
+import src.server.util.Misc;
+import src.server.model.players.Client;
 /**
  * Thieving.java
  *
@@ -59,7 +59,7 @@ public class Thieving {
 				c.startAnimation(832);
 				c.getPA().addSkillXP(xp * Config.THIEVING_EXPERIENCE, c.playerThieving);
 				c.lastThieve = System.currentTimeMillis();
-				c.sendMessage("You steal a " + server.model.items.Item.getItemName(id) + ".");
+				c.sendMessage("You steal a " + src.server.model.items.Item.getItemName(id) + ".");
 			}		
 		} else {
 			c.sendMessage("You must have a thieving level of " + level + " to thieve from this stall.");

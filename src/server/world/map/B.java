@@ -1,4 +1,4 @@
-package server.world.map;
+package src.server.world.map;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

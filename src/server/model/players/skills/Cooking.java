@@ -1,8 +1,8 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.model.players.Client;
-import server.util.Misc;
-import server.Config;
+import src.server.model.players.Client;
+import src.server.util.Misc;
+import src.server.Config;
 
 public class Cooking {
 	

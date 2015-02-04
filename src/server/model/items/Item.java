@@ -1,10 +1,10 @@
-package server.model.items;
+package src.server.model.items;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import server.Config;
-import server.Server;
+import src.server.Config;
+import src.server.Server;
 
 public class Item {
 

@@ -1,4 +1,4 @@
-package server.world.map;
+package src.server.world.map;
 
 import java.util.ArrayList;
 import java.util.Iterator;

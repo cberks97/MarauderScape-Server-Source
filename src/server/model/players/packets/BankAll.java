@@ -1,9 +1,9 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
-import server.model.items.GameItem;
-import server.model.items.Item;
-import server.model.players.Client;
-import server.model.players.PacketType;
+import src.server.model.items.GameItem;
+import src.server.model.items.Item;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
 
 /**
  * Bank All Items

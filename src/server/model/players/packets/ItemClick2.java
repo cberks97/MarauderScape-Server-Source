@@ -1,8 +1,8 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
-import server.model.players.Client;
-import server.model.players.PacketType;
-import server.util.Misc;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
+import src.server.util.Misc;
 
 /**
  * Item Click 2 Or Alternative Item Option 1

@@ -1,11 +1,11 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
-import server.Config;
-import server.Server;
-import server.Connection;
-import server.model.players.Client;
-import server.model.players.PacketType;
-import server.util.Misc;
+import src.server.Config;
+import src.server.Server;
+import src.server.Connection;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
+import src.server.util.Misc;
 
 /**
  * Private messaging, friends etc

@@ -1,4 +1,4 @@
-package server.model.npcs;
+package src.server.model.npcs;
 public class NPCList {
 	public int npcId;
 	public String npcName;

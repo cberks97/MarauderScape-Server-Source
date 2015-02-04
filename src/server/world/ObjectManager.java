@@ -1,11 +1,11 @@
-package server.world;
+package src.server.world;
 
 import java.util.ArrayList;
 
-import server.model.objects.Object;
-import server.util.Misc;
-import server.model.players.Client;
-import server.Server;
+import src.server.model.objects.Object;
+import src.server.util.Misc;
+import src.server.model.players.Client;
+import src.server.Server;
 
 /**
  * @author Sanity

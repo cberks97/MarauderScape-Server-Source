@@ -1,11 +1,11 @@
-package server.task;
+package src.server.task;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import server.task.TaskFactory.Task;
+import src.server.task.TaskFactory.Task;
 
 public class TaskManager {
 

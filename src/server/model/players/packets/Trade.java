@@ -1,8 +1,8 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
-import server.Config;
-import server.model.players.Client;
-import server.model.players.PacketType;
+import src.server.Config;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
 
 /**
  * Trading

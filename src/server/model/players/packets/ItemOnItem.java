@@ -1,12 +1,12 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
 /**
  * @author Ryan / Lmctruck30
  */
 
-import server.model.items.UseItem;
-import server.model.players.Client;
-import server.model.players.PacketType;
+import src.server.model.items.UseItem;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
 
 public class ItemOnItem implements PacketType {
 

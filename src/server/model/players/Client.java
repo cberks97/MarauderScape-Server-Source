@@ -1,4 +1,4 @@
-package server.model.players;
+package src.server.model.players;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -7,19 +7,19 @@ import java.util.HashMap;
 
 import org.apache.mina.common.IoSession;
 
-import server.Config;
-import server.Server;
-import server.model.items.ItemAssistant;
-import server.model.shops.ShopAssistant;
-import server.net.HostList;
-import server.net.Packet;
-import server.net.StaticPacketBuilder;
-import server.util.Misc;
-import server.util.Stream;
-import server.model.players.skills.*;
-import server.event.EventManager;
-import server.event.Event;
-import server.event.EventContainer;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.items.ItemAssistant;
+import src.server.model.shops.ShopAssistant;
+import src.server.net.HostList;
+import src.server.net.Packet;
+import src.server.net.StaticPacketBuilder;
+import src.server.util.Misc;
+import src.server.util.Stream;
+import src.server.model.players.skills.*;
+import src.server.event.EventManager;
+import src.server.event.Event;
+import src.server.event.EventContainer;
 
 public class Client extends Player {
 	public byte buffer[] = null;

@@ -1,4 +1,4 @@
-package server.world.map;
+package src.server.world.map;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -24,7 +24,7 @@ public class VirtualWorld
             I[i] = new Hashtable();
         }
 
-        server.world.map.I.I(true);
+        src.server.world.map.I.I(true);
         for(int j = 0; j < 0x989680; j++)
             I(0, 3222, 3242, 3223, 3243, 0);
 
@@ -35,10 +35,10 @@ public class VirtualWorld
 		if (height % 4 == 0)
 			height = 0;
 		if (currentX != futureX && futureY != currentY) {
-			return server.world.map.I.I(height, currentX, currentY, currentX, futureY, a) && server.world.map.I.I(height, currentX, currentY, futureX, currentY, a) 
-					&& server.world.map.I.I(height, currentX, currentY, futureX, futureY, a);
+			return src.server.world.map.I.I(height, currentX, currentY, currentX, futureY, a) && src.server.world.map.I.I(height, currentX, currentY, futureX, currentY, a) 
+					&& src.server.world.map.I.I(height, currentX, currentY, futureX, futureY, a);
 		}
-        return server.world.map.I.I(height, currentX, currentY, futureX, futureY, a);
+        return src.server.world.map.I.I(height, currentX, currentY, futureX, futureY, a);
     }
 
 	public static Map I[] = new Hashtable[10331];

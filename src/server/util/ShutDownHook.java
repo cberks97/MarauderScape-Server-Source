@@ -1,8 +1,8 @@
-package server.util;
+package src.server.util;
 
-import server.model.players.Client;
-import server.model.players.PlayerSave;
-import server.Server;
+import src.server.model.players.Client;
+import src.server.model.players.PlayerSave;
+import src.server.Server;
 
 public class ShutDownHook extends Thread {
 
@@ -12,7 +12,7 @@ public class ShutDownHook extends Thread {
 		for (int j = 0; j < Server.playerHandler.players.length; j++) {
 			if (Server.playerHandler.players[j] != null) {
 				Client c = (Client)Server.playerHandler.players[j];
-				server.model.players.PlayerSave.saveGame(c);			
+				src.server.model.players.PlayerSave.saveGame(c);			
 			}		
 		}
 		System.out.println("Shutting down...");

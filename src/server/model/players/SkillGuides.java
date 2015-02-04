@@ -1,6 +1,6 @@
-package server.model.players.content;
+package src.server.model.players;
 
-import server.model.players.*;
+import src.server.model.players.*;
 
 /**
 * Skill Guides class. Handles the ingame skill menus.

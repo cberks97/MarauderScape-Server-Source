@@ -1,4 +1,4 @@
-package server.net;
+package src.server.net;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.Map;
 
 import org.apache.mina.common.IoSession;
 
-import server.Config;
-import server.Connection;
+import src.server.Config;
+import src.server.Connection;
 
 public class HostList {
 	

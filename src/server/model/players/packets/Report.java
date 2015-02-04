@@ -1,4 +1,4 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import server.model.players.Client;
-import server.model.players.PacketType;
-import server.model.players.PlayerHandler;
-import server.util.Misc;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
+import src.server.model.players.PlayerHandler;
+import src.server.util.Misc;
 
 /**
  *

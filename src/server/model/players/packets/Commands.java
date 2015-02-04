@@ -1,13 +1,13 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
-import server.Config;
-import server.Connection;
-import server.Server;
-import server.model.players.Client;
-import server.model.players.PacketType;
-import server.model.players.PlayerHandler;
-import server.util.Misc;
-import server.world.WorldMap;
+import src.server.Config;
+import src.server.Connection;
+import src.server.Server;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
+import src.server.model.players.PlayerHandler;
+import src.server.util.Misc;
+import src.server.world.WorldMap;
 
 
 /**
@@ -305,7 +305,7 @@ public class Commands implements PacketType {
                         }
 
 			if (playerCommand.startsWith("resetshops")) {
-				Server.shopHandler = new server.world.ShopHandler();
+				Server.shopHandler = new src.server.world.ShopHandler();
 			}
 			
 			if (playerCommand.startsWith("fakels")) {

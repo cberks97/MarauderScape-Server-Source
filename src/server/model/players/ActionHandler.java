@@ -1,12 +1,12 @@
-package server.model.players;
+package src.server.model.players;
 
-import server.Config;
-import server.Server;
-import server.model.objects.Object;
-import server.util.Misc;
-import server.event.EventManager;
-import server.event.Event;
-import server.event.EventContainer;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.objects.Object;
+import src.server.util.Misc;
+import src.server.event.EventManager;
+import src.server.event.Event;
+import src.server.event.EventContainer;
 
 public class ActionHandler {
 	
@@ -353,7 +353,7 @@ case 8689:
 			break;
 			
 		case 6823:
-			if(server.model.minigames.Barrows.selectCoffin(c, objectType)) {
+			if(src.server.model.minigames.Barrows.selectCoffin(c, objectType)) {
 				return;
 			}
 			if(c.barrowsNpcs[0][1] == 0) {
@@ -369,7 +369,7 @@ case 8689:
 			break;
 			
 		case 6772:
-			if(server.model.minigames.Barrows.selectCoffin(c, objectType)) {
+			if(src.server.model.minigames.Barrows.selectCoffin(c, objectType)) {
 				return;
 			}
 			if(c.barrowsNpcs[1][1] == 0) {
@@ -385,7 +385,7 @@ case 8689:
 			c.getPA().movePlayer(3565, 3276, 0);
 			break;
 		case 6822:
-			if(server.model.minigames.Barrows.selectCoffin(c, objectType)) {
+			if(src.server.model.minigames.Barrows.selectCoffin(c, objectType)) {
 				return;
 			}
 			if(c.barrowsNpcs[2][1] == 0) {
@@ -400,7 +400,7 @@ case 8689:
 			c.getPA().movePlayer(3578, 3284, 0);
 			break;
 		case 6773:
-			if(server.model.minigames.Barrows.selectCoffin(c, objectType)) {
+			if(src.server.model.minigames.Barrows.selectCoffin(c, objectType)) {
 				return;
 			}
 			if(c.barrowsNpcs[3][1] == 0) {
@@ -415,7 +415,7 @@ case 8689:
 			c.getPA().movePlayer(3574, 3298, 0);
 			break;
 		case 6771:
-			if(server.model.minigames.Barrows.selectCoffin(c, objectType)) {
+			if(src.server.model.minigames.Barrows.selectCoffin(c, objectType)) {
 				return;
 			}
 			if(c.barrowsNpcs[4][1] == 0) {
@@ -433,7 +433,7 @@ case 8689:
                         c.getPA().showInterface(2156);
                         break; 
 		case 6821:
-			if(server.model.minigames.Barrows.selectCoffin(c, objectType)) {
+			if(src.server.model.minigames.Barrows.selectCoffin(c, objectType)) {
 				return;
 			}
 			if(c.barrowsNpcs[5][1] == 0) {

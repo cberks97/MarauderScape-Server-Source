@@ -1,4 +1,4 @@
-package server.net;
+package src.server.net;
 
 /**
  * A mutable sequence of bytes used to construct the immutable

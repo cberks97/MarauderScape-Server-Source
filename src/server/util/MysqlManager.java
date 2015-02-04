@@ -1,11 +1,11 @@
-package server.util;
+package src.server.util;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import server.model.players.Client;
+import src.server.model.players.Client;
 
 /**
  * MySQL Class

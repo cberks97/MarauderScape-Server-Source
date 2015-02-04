@@ -1,10 +1,10 @@
-package server.net;
+package src.server.net;
 
 import org.apache.mina.filter.codec.ProtocolCodecFactory;
 import org.apache.mina.filter.codec.ProtocolDecoder;
 import org.apache.mina.filter.codec.ProtocolEncoder;
 
-import server.util.ISAACRandomGen;
+import src.server.util.ISAACRandomGen;
 
 /**
  * Provides access to the encoders and decoders for the 508 protocol.

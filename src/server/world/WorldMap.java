@@ -1,4 +1,4 @@
-package server.world;
+package src.server.world;
 
 import java.io.RandomAccessFile;
 import java.util.HashMap;

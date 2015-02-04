@@ -1,4 +1,4 @@
-package server.model.npcs;
+package src.server.model.npcs;
 
 
 
@@ -8,15 +8,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import server.Config;
-import server.Server;
-import server.model.players.Client;
-import server.util.Misc;
-import server.world.map.VirtualWorld;
-import server.world.WorldMap;
-import server.event.EventManager;
-import server.event.Event;
-import server.event.EventContainer;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.players.Client;
+import src.server.util.Misc;
+import src.server.world.map.VirtualWorld;
+import src.server.world.WorldMap;
+import src.server.event.EventManager;
+import src.server.event.Event;
+import src.server.event.EventContainer;
 
 
 public class NPCHandler {
@@ -256,12 +256,12 @@ public class NPCHandler {
 		if(attackPlayer) {
 			newNPC.underAttack = true;
 			if(c != null) {
-				if(server.model.minigames.Barrows.COFFIN_AND_BROTHERS[c.randomCoffin][1] != newNPC.npcType) {
+				if(src.server.model.minigames.Barrows.COFFIN_AND_BROTHERS[c.randomCoffin][1] != newNPC.npcType) {
 					if(newNPC.npcType == 2025 || newNPC.npcType == 2026 || newNPC.npcType == 2027 || newNPC.npcType == 2028 || newNPC.npcType == 2029 || newNPC.npcType == 2030) {
 						newNPC.forceChat("You dare disturb my rest!");
 					}
 				}
-				if(server.model.minigames.Barrows.COFFIN_AND_BROTHERS[c.randomCoffin][1] == newNPC.npcType) {
+				if(src.server.model.minigames.Barrows.COFFIN_AND_BROTHERS[c.randomCoffin][1] == newNPC.npcType) {
 					newNPC.forceChat("You dare steal from us!");
 				}
 				

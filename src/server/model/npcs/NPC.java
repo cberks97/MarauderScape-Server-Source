@@ -1,8 +1,8 @@
-package server.model.npcs;
+package src.server.model.npcs;
 
-import server.Server;
-import server.util.Misc;
-import server.util.Stream;
+import src.server.Server;
+import src.server.util.Misc;
+import src.server.util.Stream;
 
 public class NPC {
 	public static NPCHandler nh;

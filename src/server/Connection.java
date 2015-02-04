@@ -1,4 +1,4 @@
-package server;
+package src.server;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import server.model.players.Client;
+import src.server.model.players.Client;
 
 /**
  * Connection Check Class

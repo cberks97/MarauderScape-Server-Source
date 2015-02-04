@@ -1,4 +1,4 @@
-package server.model.players;
+package src.server.model.players;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -7,8 +7,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import server.Server;
-import server.util.Misc;
+import src.server.Server;
+import src.server.util.Misc;
 
 public class PlayerSave
 {

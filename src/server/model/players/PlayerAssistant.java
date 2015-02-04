@@ -1,12 +1,12 @@
-package server.model.players;
+package src.server.model.players;
 
-import server.Config;
-import server.Server;
-import server.model.npcs.NPCHandler;
-import server.util.Misc;
-import server.world.map.VirtualWorld;
-import server.Connection;
-import server.util.Stream;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.npcs.NPCHandler;
+import src.server.util.Misc;
+import src.server.world.map.VirtualWorld;
+import src.server.Connection;
+import src.server.util.Stream;
 import java.net.InetSocketAddress;
 
 import org.apache.mina.common.IoSession;

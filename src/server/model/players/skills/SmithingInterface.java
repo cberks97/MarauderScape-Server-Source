@@ -1,6 +1,6 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.model.players.Client;
+import src.server.model.players.Client;
 
 public class SmithingInterface {
 

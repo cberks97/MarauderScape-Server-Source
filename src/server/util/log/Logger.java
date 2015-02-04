@@ -1,11 +1,11 @@
-package server.util.log;
+package src.server.util.log;
 
 import java.io.PrintStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import server.util.SimpleTimer;
+import src.server.util.SimpleTimer;
 
 /**
  * 

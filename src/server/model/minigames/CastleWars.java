@@ -1,11 +1,11 @@
-package server.model.minigames;
+package src.server.model.minigames;
 
 
 import java.util.ArrayList;
 
-import server.Server;
-import server.model.players.Client;
-import server.util.Misc;
+import src.server.Server;
+import src.server.model.players.Client;
+import src.server.util.Misc;
 
 public class CastleWars {
 	

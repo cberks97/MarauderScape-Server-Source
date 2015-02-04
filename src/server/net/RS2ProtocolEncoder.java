@@ -1,4 +1,4 @@
-package server.net;
+package src.server.net;
 
 import org.apache.mina.common.ByteBuffer;
 import org.apache.mina.common.IoSession;

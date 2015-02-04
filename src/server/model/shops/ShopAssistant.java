@@ -1,9 +1,9 @@
-package server.model.shops;
+package src.server.model.shops;
 
-import server.Config;
-import server.Server;
-import server.model.items.Item;
-import server.model.players.Client;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.items.Item;
+import src.server.model.players.Client;
 
 public class ShopAssistant {
 

@@ -1,6 +1,6 @@
-package server.model.objects;
+package src.server.model.objects;
 
-import server.Server;
+import src.server.Server;
 
 public class Object {
 	

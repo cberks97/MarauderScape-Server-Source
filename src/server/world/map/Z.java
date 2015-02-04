@@ -1,4 +1,4 @@
-package server.world.map;
+package src.server.world.map;
 
 public class Z
 {

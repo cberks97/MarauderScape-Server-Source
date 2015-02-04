@@ -1,6 +1,6 @@
-package server.world;
+package src.server.world;
 
-import server.model.players.Client;
+import src.server.model.players.Client;
 
 /**
  * @author Sanity

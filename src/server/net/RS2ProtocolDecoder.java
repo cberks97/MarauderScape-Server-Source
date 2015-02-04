@@ -1,12 +1,12 @@
-package server.net;
+package src.server.net;
 
 import org.apache.mina.common.ByteBuffer;
 import org.apache.mina.common.IoSession;
 import org.apache.mina.filter.codec.CumulativeProtocolDecoder;
 import org.apache.mina.filter.codec.ProtocolDecoderOutput;
 
-import server.model.players.Client;
-import server.util.ISAACRandomGen;
+import src.server.model.players.Client;
+import src.server.util.ISAACRandomGen;
 
 public class RS2ProtocolDecoder extends CumulativeProtocolDecoder {
 	

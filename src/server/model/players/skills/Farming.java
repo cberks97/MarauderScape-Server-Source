@@ -1,8 +1,8 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.Config;
-import server.model.players.Client;
-import server.util.Misc;
+import src.server.Config;
+import src.server.model.players.Client;
+import src.server.util.Misc;
 
 /**
  * Farming.java

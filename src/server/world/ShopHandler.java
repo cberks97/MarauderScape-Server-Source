@@ -1,13 +1,13 @@
-package server.world;
+package src.server.world;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import server.Config;
-import server.Server;
-import server.util.Misc;
+import src.server.Config;
+import src.server.Server;
+import src.server.util.Misc;
 
 /**
 * Shops

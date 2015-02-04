@@ -1,12 +1,12 @@
-package server.model.players;
+package src.server.model.players;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import server.Config;
-import server.Server;
-import server.model.items.GameItem;
-import server.model.items.Item;
-import server.util.Misc;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.items.GameItem;
+import src.server.model.items.Item;
+import src.server.util.Misc;
 
 
 public class TradeAndDuel{

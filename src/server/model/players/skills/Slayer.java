@@ -1,8 +1,8 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.model.players.Client;
-import server.Server;
-import server.util.Misc;
+import src.server.model.players.Client;
+import src.server.Server;
+import src.server.util.Misc;
 /**
  * Slayer.java
  *

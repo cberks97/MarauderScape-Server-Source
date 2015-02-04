@@ -1,4 +1,4 @@
-package server.world;
+package src.server.world;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import server.Server;
-import server.model.objects.Objects;
-import server.model.players.Client;
-import server.model.players.Player;
-import server.util.Misc;
+import src.server.Server;
+import src.server.model.objects.Objects;
+import src.server.model.players.Client;
+import src.server.model.players.Player;
+import src.server.util.Misc;
 
 /**
  * @author Sanity

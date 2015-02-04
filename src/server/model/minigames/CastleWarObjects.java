@@ -1,6 +1,6 @@
-package server.model.minigames;
+package src.server.model.minigames;
 
-import server.model.players.Client;
+import src.server.model.players.Client;
 public class CastleWarObjects {
 
 	public void handleObject(Client c, int id, int x, int y) {

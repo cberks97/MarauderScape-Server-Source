@@ -1,9 +1,9 @@
-package server.model.players.packets;
+package src.server.model.players.packets;
 
-import server.Server;
-import server.model.items.UseItem;
-import server.model.players.Client;
-import server.model.players.PacketType;
+import src.server.Server;
+import src.server.model.items.UseItem;
+import src.server.model.players.Client;
+import src.server.model.players.PacketType;
 
 
 public class ItemOnNpc implements PacketType {

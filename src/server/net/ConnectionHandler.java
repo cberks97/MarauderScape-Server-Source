@@ -1,11 +1,11 @@
-package server.net;
+package src.server.net;
 
 import org.apache.mina.common.IdleStatus;
 import org.apache.mina.common.IoHandler;
 import org.apache.mina.common.IoSession;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;
 
-import server.model.players.Client;
+import src.server.model.players.Client;
 
 public class ConnectionHandler implements IoHandler {
 

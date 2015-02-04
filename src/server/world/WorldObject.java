@@ -1,4 +1,4 @@
-package server.world;
+package src.server.world;
 
 public class WorldObject {
 	

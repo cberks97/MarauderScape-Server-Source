@@ -1,4 +1,4 @@
-package server.net;
+package src.server.net;
 
 import org.apache.mina.common.ByteBuffer;
 import org.apache.mina.common.IoFuture;
@@ -8,14 +8,14 @@ import org.apache.mina.filter.codec.CumulativeProtocolDecoder;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;
 import org.apache.mina.filter.codec.ProtocolDecoderOutput;
 
-import server.Config;
-import server.Connection;
-import server.Server;
-import server.model.players.Client;
-import server.model.players.PlayerHandler;
-import server.model.players.PlayerSave;
-import server.util.ISAACRandomGen;
-import server.util.Misc;
+import src.server.Config;
+import src.server.Connection;
+import src.server.Server;
+import src.server.model.players.Client;
+import src.server.model.players.PlayerHandler;
+import src.server.model.players.PlayerSave;
+import src.server.util.ISAACRandomGen;
+import src.server.util.Misc;
 
 /**
  * Login protocol decoder.

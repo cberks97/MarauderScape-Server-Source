@@ -1,17 +1,17 @@
-package server.model.players;
+package src.server.model.players;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import server.Config;
-import server.Server;
-import server.model.items.Item;
-import server.model.npcs.NPC;
-import server.model.npcs.NPCHandler;
-import server.util.ISAACRandomGen;
-import server.util.Misc;
-import server.util.Stream;
-import server.world.map.VirtualWorld;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.items.Item;
+import src.server.model.npcs.NPC;
+import src.server.model.npcs.NPCHandler;
+import src.server.util.ISAACRandomGen;
+import src.server.util.Misc;
+import src.server.util.Stream;
+import src.server.world.map.VirtualWorld;
 
 public abstract class Player {
 

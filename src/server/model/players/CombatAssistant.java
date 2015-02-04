@@ -1,8 +1,8 @@
-package server.model.players;
+package src.server.model.players;
 
-import server.Config;
-import server.Server;
-import server.util.Misc;
+import src.server.Config;
+import src.server.Server;
+import src.server.util.Misc;
 
 
 public class CombatAssistant{

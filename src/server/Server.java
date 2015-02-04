@@ -1,4 +1,4 @@
-package server;
+package src.server;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -8,26 +8,26 @@ import org.apache.mina.common.IoAcceptor;
 import org.apache.mina.transport.socket.nio.SocketAcceptor;
 import org.apache.mina.transport.socket.nio.SocketAcceptorConfig;
 
-import server.event.EventManager;
-import server.model.npcs.NPCHandler;
-import server.model.players.PlayerHandler;
-import server.model.players.Player;
-import server.model.players.Client;
-import server.model.players.PlayerSave;
-import server.model.minigames.*;
-import server.model.npcs.*;
-import server.net.ConnectionHandler;
-import server.net.ConnectionThrottleFilter;
-import server.util.ShutDownHook;
-import server.util.SimpleTimer;
-import server.util.log.Logger;
-import server.world.ItemHandler;
-import server.world.ObjectHandler;
-import server.world.ObjectManager;
-import server.world.ShopHandler;
-import server.world.map.VirtualWorld;
-import server.world.ClanChatHandler;
-import server.world.WorldMap;
+import src.server.event.EventManager;
+import src.server.model.npcs.NPCHandler;
+import src.server.model.players.PlayerHandler;
+import src.server.model.players.Player;
+import src.server.model.players.Client;
+import src.server.model.players.PlayerSave;
+import src.server.model.minigames.*;
+import src.server.model.npcs.*;
+import src.server.net.ConnectionHandler;
+import src.server.net.ConnectionThrottleFilter;
+import src.server.util.ShutDownHook;
+import src.server.util.SimpleTimer;
+import src.server.util.log.Logger;
+import src.server.world.ItemHandler;
+import src.server.world.ObjectHandler;
+import src.server.world.ObjectManager;
+import src.server.world.ShopHandler;
+import src.server.world.map.VirtualWorld;
+import src.server.world.ClanChatHandler;
+import src.server.world.WorldMap;
 
 /**
  * Server.java

@@ -1,8 +1,8 @@
-package server.model.players;
+package src.server.model.players;
 
 import java.util.ArrayList;
 
-import server.Server;
+import src.server.Server;
 
 /**
  * @author Sanity

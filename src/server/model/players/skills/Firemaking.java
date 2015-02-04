@@ -1,9 +1,9 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.Config;
-import server.model.players.Client;
-import server.model.objects.Objects;
-import server.Server;
+import src.server.Config;
+import src.server.model.players.Client;
+import src.server.model.objects.Objects;
+import src.server.Server;
 /**
  * Firemaking.java
  *

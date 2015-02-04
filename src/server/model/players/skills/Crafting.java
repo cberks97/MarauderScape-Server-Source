@@ -1,7 +1,7 @@
-package server.model.players.skills;
+package src.server.model.players.skills;
 
-import server.model.players.Client;
-import server.Config;
+import src.server.model.players.Client;
+import src.server.Config;
 
 public class Crafting {
 

@@ -1,4 +1,4 @@
-package server.model.players;
+package src.server.model.players;
 
 
 	

@@ -1,4 +1,4 @@
-package server.world;
+package src.server.world;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -9,13 +9,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import server.Config;
-import server.Server;
-import server.model.items.GroundItem;
-import server.model.items.ItemList;
-import server.model.players.Client;
-import server.model.players.Player;
-import server.util.Misc;
+import src.server.Config;
+import src.server.Server;
+import src.server.model.items.GroundItem;
+import src.server.model.items.ItemList;
+import src.server.model.players.Client;
+import src.server.model.players.Player;
+import src.server.util.Misc;
 
 /**
 * Handles ground items
@@ -167,7 +167,7 @@ public class ItemHandler {
 					}
 				}
 			}
-			if (!server.model.items.Item.itemStackable[itemId] && itemAmount > 0) {
+			if (!src.server.model.items.Item.itemStackable[itemId] && itemAmount > 0) {
 				for (int j = 0; j < itemAmount; j++) {
 					c.getItems().createGroundItem(itemId, itemX, itemY, 1);
 					GroundItem item = new GroundItem(itemId, itemX, itemY, 1, c.playerId, HIDE_TICKS, Server.playerHandler.players[playerId].playerName);

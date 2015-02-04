@@ -1,7 +1,7 @@
-package server.task;
+package src.server.task;
 
-import server.model.players.Client;
-import server.model.players.PlayerHandler;
+import src.server.model.players.Client;
+import src.server.model.players.PlayerHandler;
 
 
 public class TaskFactory {

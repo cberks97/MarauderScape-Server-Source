@@ -1,6 +1,6 @@
-package server.util;
+package src.server.util;
 
-import server.Config;
+import src.server.Config;
 
 public class Stream
 {

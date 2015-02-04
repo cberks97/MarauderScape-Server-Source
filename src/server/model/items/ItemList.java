@@ -1,4 +1,4 @@
-package server.model.items;
+package src.server.model.items;
 
 public class ItemList {
 	public int itemId;
