@@ -927,6 +927,14 @@ break;
 			case 660:
 				c.getDH().sendDialogues(39, npcType);
 			break;
+			//Zeke's Superior Scimitars
+			case 541:
+				c.getShops().openShop(12);
+			break;
+			//Peksa' helmet shop
+			case 538:
+				c.getShops().openShop(11);
+			break;
 			//Fally gen store keeper
 			case 526:
 				c.getShops().openShop(18);

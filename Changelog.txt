@@ -50,4 +50,12 @@ Varrock Sword Shop
 2/3/15
 *updated shops: fixed Falador General Store items (again)
 *messed with some dialogue, got bored...
+-Colin
 *Made the damn thing like eclipse
+-Tim
+
+2/4/15
+*Fixed bronze armor sprites and stats.(no longer overpowered primal armor)
+*updated shops: finished Horvik's Armor Shop,
+*added shops: Peksa'a Helmet Shop, Zeke's superior scimitars (neither shop will open for some reason in-game, fixing it some other time)
+*added npc's: Peksa

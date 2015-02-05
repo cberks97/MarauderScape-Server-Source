@@ -91,24 +91,10 @@ public class ObjectManager {
 	public void loadCustomSpawns(Client c) {
 		//runecrafting
 		c.getPA().checkObjectSpawn(7129, 1923, 5012, 0, 10);
-		//stalls
-		c.getPA().checkObjectSpawn(4878, 3220, 3424, 1, 10);
-		c.getPA().checkObjectSpawn(4874, 3220, 3423, 0, 10);
-		c.getPA().checkObjectSpawn(4877, 3220, 3422, 1, 10);
-		c.getPA().checkObjectSpawn(4875, 3220, 3421, 0, 10);
-		c.getPA().checkObjectSpawn(4876, 3219, 3425, 0, 10);//stalls
+
 		c.getPA().checkObjectSpawn(1755, 3055, 9774, 0, 0);
-		c.getPA().checkObjectSpawn(1596, 3008, 3850, 1, 0);
-		c.getPA().checkObjectSpawn(1596, 3008, 3849, -1, 0);
-		c.getPA().checkObjectSpawn(1596, 3040, 10307, -1, 0);
-		c.getPA().checkObjectSpawn(1596, 3040, 10308, 1, 0);
-		c.getPA().checkObjectSpawn(1596, 3022, 10311, -1, 0);
-		c.getPA().checkObjectSpawn(1596, 3022, 10312, 1, 0);
-		c.getPA().checkObjectSpawn(1596, 3044, 10341, -1, 0);
-		c.getPA().checkObjectSpawn(1596, 3044, 10342, 1, 0);
-		c.getPA().checkObjectSpawn(2213, 3080, 9502, 1, 10);
-		c.getPA().checkObjectSpawn(2475, 3233, 9312, 1, 10);
-		c.getPA().checkObjectSpawn(4551, 2522, 3595, 1, 10);
+		c.getPA().checkObjectSpawn(2475, 3233, 9312, 0, 10);
+		c.getPA().checkObjectSpawn(4551, 2522, 3595, 0, 10);
 		//premium isle mining rocks
 		c.getPA().checkObjectSpawn(14859, 3175, 3364, 1, 10);
 		c.getPA().checkObjectSpawn(14859, 3177, 3364, 1, 10);
