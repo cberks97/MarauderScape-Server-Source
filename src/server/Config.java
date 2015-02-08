@@ -255,14 +255,6 @@ public class Config {
 			{52,534,1,0},
 		// Black Demon
 			{84,592,1,0}, {84,1333,1,8}, {84,1247,1,9}, {84,5698,1,10}, {84,4587,1,10},
-		// Hill Giant
-			{117,995,5000,9}, {117,1333,1,9}, {117,1247,1,9}, {117,830,40,9}, {117,1319,1,9},
-			{117,4587,1,9}, {117,1079,1,9}, {117,1147,1,9}, {117,1149,1,9}, 
-			{117,532,1,0},
-		// Moss Giant
-			{112,995,5000,9}, {112,1333,1,9}, {112,1247,1,9}, {112,830,40,9}, {112,1319,1,9},
-			{112,4587,1,9}, {112,1079,1,9}, {112,1147,1,9}, {112,1149,1,9}, 
-			{112,532,1,0},
 		// Fire Giant
 			{110,995,5000,12}, {110,1333,1,13}, {110,1247,1,13}, {110,830,40,14}, {110,1319,1,13},
 			{110,4587,1,11}, {110,1079,1,13}, {110,1147,1,10}, {110,1149,1,14}, 
@@ -363,6 +355,205 @@ public class Config {
 			{1766, 526, 1, 0}, {1766, 1739, 1, 0}, {1766, 2132, 1, 0},
 		//chickens
 			{41,526,1,0},{41,2138,1,0},{41,314,15,15},
+			
+			//Rock Crabs (1265)
+		//Bones
+		{ 1265, 526, 1, 0 }, //Bones - Always
+		//Herbs
+		{ 1265, 207, 1, 45 }, //Grimy Ranarr - rare
+		{ 1265, 211, 1, 45 }, //Grimy avantoe - rare
+		{ 1265, 5293, 1, 45 }, //tarromin seed - rare
+		{ 1265, 5295, 1, 45 }, //ranarr seed - rare
+		{ 1265, 5297, 1, 80 }, // irit seed - very rare
+		//Skilling equipment
+		{ 1265, 1265, 1, 50 }, //Bronze pickaxe - common
+		{ 1265, 1267, 1, 50 }, //iron pickaxe - common
+		{ 1265, 1351, 1, 50 }, //bronze hatchet - uncommon
+		{ 1265, 826, 1, 50 }, //iron javelin - uncommon
+		//Runes
+		{ 1265, 554, 1, 30 }, //fire rune - common
+		{ 1265, 561, 1, 50 }, //nature rune - uncommon
+		{ 1265, 562, 1, 75 }, //chaos rune - rare
+		{ 1265, 564, 1, 75 }, //cosmic rune - rare
+		//Misc
+		{ 1265, 995, 4 , 10}, //coins - common
+		{ 1265, 407, 1, 40}, //oyster - common
+		{ 1265, 402, 1, 60}, //seaweed - common
+		{ 1265, 411, 1, 30 }, //oyster pearl - common
+		{ 1265, 409, 1, 50 }, //empty oyster - common
+		{ 1265, 15188, 1, 50 }, //Rock crab carcass - common
+		{ 1265, 1969, 1, 50 }, //Spinach roll - uncommon
+		{ 1265, 946, 1, 50 }, //Knife - uncommon
+		{ 1265, 440, 1, 50 }, //Iron ore - uncommon
+		{ 1265, 454, 2, 50 }, //Coal - uncommon
+		{ 1265, 437, 3, 70 }, //Copper ore - uncommon
+		{ 1265, 439, 3, 80 }, //Tin ore - uncommon
+		{ 1265, 313, 1, 30}, //Fishing bait - uncommon
+		{ 1265, 45, 5, 50 }, //Opal bolt tips - uncommon
+		{ 1265, 9187, 1, 40 }, //Jade bolt tips - rare
+		{ 1265, 225, 1, 40 }, //Limpwurt root - rare
+		{ 1265, 405, 1, 40 }, //Casket - Rare
+//End of Rock Crabs
+		
+//Hill Giants (117)
+		//Bones
+		{ 117, 532, 1, 0 }, //Big bones - Always
+		//Armour/Weapons
+		{ 117, 1309, 1, 50 }, //Iron 2h - uncommon
+		{ 117, 890, 1, 80 }, //Adamant arrow - Very Rare
+		{ 117, 1191, 1, 50 }, //Iron Kite-sheild - common
+		{ 117, 1153, 1, 50 }, //Iron full helm - common
+		{ 117, 1207, 1, 50 }, //Steel dagger - common
+		{ 117, 884, 3, 50 }, //Iron arrow - common
+		{ 117, 888, 5, 50 }, //Mithril arrow - Rare
+		{ 117, 1295, 1, 50 }, //Steel longsword - uncommon
+		{ 117, 1203, 1, 50 }, //Iron dagger - common
+		{ 117, 886, 10, 80 }, //Steel arrow - uncommon
+		{ 117, 1119, 1, 50 }, //Steel platebody - uncommon
+		//Runes
+		{ 117, 555, 7, 75 }, //Water rune - common
+		{ 117, 554, 15, 75 }, //Fire rune - common 
+		{ 117, 564, 2, 75 }, //Cosmic rune - common
+		{ 117, 563, 3, 75 }, //Law rune - uncommon
+		{ 117, 561, 6, 75 }, //Nature rune - uncommon
+		{ 117, 558, 3, 75 }, //Mind rune - common
+		{ 117, 560, 2, 100 }, //Death rune - rare
+		{ 117, 562, 2, 100 }, //Chaos rune - rare
+		//Herbs
+		{ 117, 199, 1, 50 }, //Grimy guam - common
+		{ 117, 201, 1, 50 }, //Grimy marrentill - common
+		{ 117, 203, 1, 50 }, //Grimy tarromin - common
+		{ 117, 207, 1, 75 }, //Grimy ranarr - rare
+		{ 117, 205, 1, 75 }, //Grimy harralander - rare
+		{ 117, 209, 1, 75 }, //Grimy irit - rare
+		{ 117, 211, 1, 75 }, //Grimy avantoe - rare
+		{ 117, 213, 1, 75 }, //Grimy kwuarm - rare
+		{ 117, 217, 1, 75 }, //Grimy dwarf weed - rare
+		{ 117, 215, 1, 100 }, //Grimy cadantine - very rare
+		{ 117, 2485, 1, 100 }, //Grimy lantadyme - very rare
+		//Seeds
+		{ 117, 5322, 1, 50}, //tomato seed - common
+		{ 117, 5306, 1, 60}, //jute seed - uncommon
+		{ 117, 5318, 1 , 50}, //potato seed - common
+		{ 117, 5319, 4 , 50}, //onion seed - common
+		{ 117, 5323, 2, 50 }, //strawberry seed - common
+		{ 117, 5324, 4, 50 }, //cabbage seed - common
+		{ 117, 5307, 1 , 75}, //hammerstone seed - uncommon
+		{ 117, 5100, 1, 75 }, //limpwurt seed - rare
+		{ 117, 5320, 3, 75 }, //sweetcorn seed - rare
+		{ 117, 5302, 1, 60 }, //lantadyme seed - uncommon
+		{ 117, 5321, 2, 100 }, //watermelon seed - Very rare
+		//Misc
+		{ 117, 995, 300, 40}, //coins - common
+		{ 117, 225, 1, 60 }, //limpwurt root - common
+		{ 117, 1917, 1, 60 }, //beer - common
+		{ 117, 1446, 1, 60 }, //Body talisman - uncommon
+		{ 117, 2353, 1, 75 }, //steel bar - rare
+//End Hill Giant
+		
+//Chaos Druid(181)
+		//Herbs
+		{ 181, 199, 1, 50 }, //Grimy guam - common
+		{ 181, 201, 1, 50 }, //Grimy marrentill - common
+		{ 181, 203, 1, 50 }, //Grimy tarromin - common
+		{ 181, 207, 1, 80 }, //Grimy ranarr - uncommon
+		{ 181, 205, 1, 80 }, //Grimy harralander - uncommon
+		{ 181, 209, 1, 80 }, //Grimy irit - uncommon
+		{ 181, 211, 1, 80 }, //Grimy avantoe - uncommon
+		{ 181, 213, 1, 80 }, //Grimy kwuarm - uncommon
+		{ 181, 217, 1, 80 }, //Grimy dwarf weed - uncommon
+		{ 181, 215, 1, 80 }, //Grimy cadantine - uncommon
+		{ 181, 2485, 1, 80 }, //Grimy lantadyme - uncommon
+		//Runes
+		{ 181, 563, 2, 70 }, //Law rune - common
+		{ 181, 559, 9, 70 }, //Body rune - common
+		{ 181, 556, 15, 70 }, //Air rune - common
+		{ 181, 557, 9, 70 }, //Earth rune - common
+		{ 181, 558, 12, 70 }, //Mind rune - common
+		{ 181, 561, 3, 100 }, //Nature rune - uncommon
+		//Misc
+		{ 181, 995, 365, 50 }, //coins - common
+		{ 181, 9142, 6, 70 }, //Mirthril bolts - common
+		{ 181, 24909, 30, 70 }, //Anagogic ort - common
+		{ 181, 227, 1, 70 }, //Vial of water - common
+		{ 181, 540, 1, 70 }, //Druid's robe(top) - common
+		{ 181, 538, 1, 70 }, //Druid's robe bottom - common
+		{ 181, 1291, 1, 80 }, //Bronze Longsword - uncommon
+		{ 181, 231, 1, 90 }, //snape grass - rare
+		{ 181, 1594, 1, 90 }, //unholy mould - rare
+		{ 181, 1454, 1, 100 }, //cosmic talisman - very rare
+		{ 181, 1153, 1, 100 }, //iron helm - very rare
+		{ 181, 1627, 1, 100 }, //uncut jade - very rare
+//End Chaos Druid
+
+//Moss Giants(112)
+		//Bones
+		{ 112, 532, 1, 0 }, //Big bones - always
+		//Weapons
+		{ 112, 1389, 1, 60 }, //Magic Staff - common
+		{ 112, 1243, 1, 60 }, //mithril spear - common
+		{ 112, 1285, 1, 60 }, //mithril sword - common
+		{ 112, 886, 30, 60 }, //steel arrow - common
+		{ 112, 884, 15, 60 }, //iron arrow - common
+		{ 112, 1287, 1, 90 }, //adamant sword - rare
+		//Armour
+		{ 112, 1165, 1, 60 }, //Black full helm - common
+		{ 112, 1179, 1, 60 }, //Black sq shield - common
+		{ 112, 1157, 1, 60 }, //Steel full helm - common
+		{ 112, 1193, 1, 75 }, //Steel kiteshield - uncommon
+		//Runes
+		{ 112, 556, 18, 60 }, //Air Rune - common
+		{ 112, 564, 3, 60 }, //cosmic rune - common
+		{ 112, 557, 27, 60 }, //Earth rune - common
+		{ 112, 561, 6, 60 }, //Nature rune - common
+		{ 112, 563, 3, 75}, //Law rune - uncommon
+		{ 112, 565, 1, 75 }, //Blood rune - uncommon
+		{ 112, 562, 7, 75 }, //Chaos rune - uncommon
+		{ 112, 560, 1, 90}, //Death Rune - Rare
+		//Seeds - long. lol
+		{ 112, 5323, 1, 60 }, //Strawberry seed - common
+		{ 112, 5311, 1, 60 }, //Wildblood seed - common
+		{ 112, 5293, 1, 60 }, //Tarromin seed - common
+		{ 112, 5294, 1, 60 }, //Harralander seed - common
+		{ 112, 5104, 1, 60 }, //Jangerberry seed - common
+		{ 112, 5292, 1, 60 }, //Marrentill seed - common
+		{ 112, 5281, 1, 75 }, //Belladonna seed - uncommon
+		{ 112, 12176, 1, 75 }, //Spirit weed seed - uncommon
+		{ 112, 5100, 1, 75 }, //Limpwurt seed - uncommon
+		{ 112, 5296, 1, 75 }, //Toadflax seed - uncommon
+		{ 112, 5105, 1, 75 }, //Whiteberry seed - uncommon
+		{ 112, 5282, 1, 75 }, //Bittercap mushroom spore - uncommon
+		{ 112, 4206, 1, 75 }, //Consecration seed - uncommon
+		{ 112, 5298, 1, 90 }, //Avantoe seed - Rare
+		{ 112, 5280, 1, 90 }, //Cactus seed - Rare
+		{ 112, 5297, 1, 90 }, //Irit seed - Rare
+		{ 112, 5299, 1, 90 }, //Kwuarm seed - Rare
+		{ 112, 5106, 1, 90 }, //Poison ivy seed - Rare
+		{ 112, 5295, 1, 90 }, //Ranarr seed - Rare
+		{ 112, 5301, 1, 90 }, //Cadantine seed - Rare
+		{ 112, 5302, 1, 90 }, //Lantadyme seed - Rare
+		{ 112, 5321, 1, 90 }, //Watermelon seed - Rare
+		{ 112, 5303, 1, 110 }, //Dwarf weed seed - Very Rare
+		//Herbs
+		{ 112, 199, 1, 60 }, //Grimy guam - common
+		{ 112, 201, 1, 60 }, //Grimy marrentill - common
+		{ 112, 203, 1, 60 }, //Grimy tarromin - common
+		{ 112, 205, 1, 60 }, //Grimy harralander - common
+		{ 112, 211, 1, 75 }, //Grimy avantoe - uncommon
+		{ 112, 209, 1, 75 }, //Grimy irit - uncommon
+		{ 112, 213, 1, 75 }, //Grimy kwuarm - uncommon
+		{ 112, 207, 1, 75 }, //Grimy ranarr - uncommon
+		{ 112, 2485, 1, 75 }, //Grimy lantadyme - uncommon
+		{ 112, 217, 1, 75 }, //Grimy dwarf weed - uncommon
+		{ 112, 215, 1, 75 }, //Grimy cadantine - uncommon
+		{ 112, 220, 1, 110 }, //Grimy torstol - very rare
+		//Misc
+		{ 112, 995, 250 , 60}, //coins - common
+		{ 112, 2353, 1, 60 }, //steel bar - common
+		{ 112, 453, 1, 75 }, //Coal - uncommon
+		{ 112, 1969, 1, 75 }, //Spinach roll - Uncommon
+		{ 112, 1442, 1, 90 }, //Fire talisman - Rare	
+//End Moss Giants
 };
 	};
 

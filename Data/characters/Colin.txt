@@ -4,8 +4,8 @@ character-password = 49505710411110810811111911411711011611497105108
 
 [CHARACTER]
 character-height = 0
-character-posx = 3217
-character-posy = 3219
+character-posx = 3303
+character-posy = 3661
 character-rights = 3
 crystal-bow-shots = 0
 skull-timer = -1
@@ -16,7 +16,7 @@ brother-info = 2	0
 brother-info = 3	0
 brother-info = 4	2
 brother-info = 5	0
-special-amount = 99855.0
+special-amount = 99830.0
 selected-coffin = 0
 barrows-killcount = 2
 teleblock-length = 0
@@ -69,13 +69,13 @@ character-look = 12	7
 [SKILLS]
 character-skill = 0	99	13034836
 character-skill = 1	99	13034436
-character-skill = 2	99	13157716
-character-skill = 3	99	13075536
+character-skill = 2	99	13161316
+character-skill = 3	99	13076733
 character-skill = 4	99	13034436
 character-skill = 5	99	13035811
 character-skill = 6	99	13034436
 character-skill = 7	99	13034436
-character-skill = 8	99	13049236
+character-skill = 8	99	13051111
 character-skill = 9	99	13034436
 character-skill = 10	99	13036186
 character-skill = 11	99	13034436

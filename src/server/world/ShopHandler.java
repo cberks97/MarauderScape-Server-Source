@@ -15,7 +15,7 @@ import src.server.util.Misc;
 
 public class ShopHandler {
 
-	public static int MaxShops = 101; 
+	public static int MaxShops = 161; 
 	public static int MaxShopItems = 101;
 	public static int MaxInShopItems = 20;
 	public static int MaxShowDelay = 10;
